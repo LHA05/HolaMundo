@@ -1,0 +1,46 @@
+body {
+    background-color: aquamarine;
+    /*ponerle color el fondo por que es el body*/
+    /* background: linear-gradient(0deg, rgba(2,0,36,1) 55%, rgba(160,205,96,1) 35%; o background: rgb() estos sirven para hacer difuminados*/
+    font-family: 'Times New Roman', Times, serif;
+    /* font family para escojer el tipo de letra*/
+    font-size: 15px;
+    /*fon size es para el tamaño de la letra*/
+}
+
+img {
+    /*es recomendado solo utilizar o ancho o largo para que no se deformen las imagenes*/
+    height: 200px;
+    /*alto*/
+    /*width: 200; /*ancho*/
+    border-radius: 10px;
+    /*es para redondiar las esquinas*/
+    border: dashed; /*esas variables despues de border sirve para darle otro estilo a la imagen*/
+}
+
+.img2 {
+    /*es recomendado solo utilizar o ancho o largo para que no se deformen las imagenes*/
+    height: 200px;
+    /*alto*/
+    /*width: 200; /*ancho*/
+    border-radius: 55px;
+    /*es para redondiar las esquinas*/
+    opacity: 0.1;
+    /*es para opacar las imagenes*/  
+}
+h2{
+    text-align: center; /*ponerle un lugar al texto*/
+}
+.holis{
+    /*las imagenes si se quieren centrar en un div, en css se crea la variable se utiliza display: center*/
+background-color: rgb(183, 153, 211);
+/*background-image: url(aqui va el link) ;/* es para poner una imagen de fondo*/
+font-size: 21px;
+color: brown; /*color de la letra*/  
+/*background-color: rgba(0, 0, 0, 0.5);/* este es para darle opacidad a la imagen de fondo*/
+}
+.imagenes{
+    text-align: center; 
+}
+
+
